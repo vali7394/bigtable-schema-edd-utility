@@ -1,0 +1,8 @@
+server:
+  port: ${port:8080}
+
+gcp:
+  project-id: ${project-d:gcp-poc-demo}
+  instance-id: ${instance-id:bigtable-poc}
+  storage:
+    bucket-name: gcp-bt-pos-bucket

@@ -1,0 +1,19 @@
+
+# ALLOWED VALUES FOR ACTION ARE
+  # CREATE_TABLE
+  # DELETE_TABLE
+  # ADD_COLUMN_FAMILY
+  # DELETE_COLUMN_FAMILY
+---
+tables:
+  - table:
+      action: CREATE_TABLE
+      name: product-demo
+      column-families:
+        - name: product-time-details
+  - table:
+      name: category-demo
+      action: CREATE_TABLE
+      column-families:
+        - name: category-time-details
+
